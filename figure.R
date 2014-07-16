@@ -4,5 +4,5 @@ print(paste("Filename is: ", filename, sep=""))
 
 x = c(-1, 0, 1)
 png(filename)
-plot(sin(x))
+plot(x)
 dev.off()
